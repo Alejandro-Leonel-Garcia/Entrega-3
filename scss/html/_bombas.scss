@@ -1,0 +1,17 @@
+/* Slider de html bombas con bootstrap */
+div{
+    .carousel-inner{
+    width: 20%;
+    height: 20%;
+    justify-self: center ;    
+    }
+}
+
+.carousel-control-prev{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.333);
+}
+
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.333);
+}

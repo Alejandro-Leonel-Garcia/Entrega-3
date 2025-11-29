@@ -1,0 +1,60 @@
+/* Titulo de los encabezados */
+main {
+  .encabezado {
+    display: block;
+    align-items: center;
+    justify-items: center;
+
+    .titulo {
+      display: grid;
+      width: 70%;
+      height: 100px;
+      background-color: rgba(0, 0, 255, 0.551);
+      font-size: 40px;
+      justify-content: center;
+      align-content: center;
+      margin: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px;
+      color: rgb(0, 0, 0);
+    }
+
+    .sub-titulo {
+      display: grid;
+      width: 60%;
+      height: 100px;
+      background-color: rgba(0, 0, 255, 0.418);
+      font-size: 40px;
+      justify-content: center;
+      align-content: center;
+      border-radius: 15px;
+      box-shadow: 0 0 10px;
+      color: black;
+    }
+    }
+
+    /* Fotos del index */    
+    .fotos {
+      display: grid;
+      height: auto;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 200px 200px;
+      gap: 20px;
+      justify-content: center;
+      align-content: center;
+      margin: 20px 0px;
+    }
+
+    .fotos {
+      div {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+
+        img {
+          border-radius: 10px;
+          box-shadow: 0 0 10px;
+        }
+      }
+    }
+  }
