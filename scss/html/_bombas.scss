@@ -1,3 +1,5 @@
+@use"../variables";
+
 /* Slider de html bombas con bootstrap */
 div{
     .carousel-inner{
@@ -8,10 +10,10 @@ div{
 }
 
 .carousel-control-prev{
-    color: black;
-    background-color: rgba(0, 0, 0, 0.333);
+    color: variables.$color-primero;
+    background-color:variables.$color-trans;
 }
 
 .carousel-control-next{
-    background-color: rgba(0, 0, 0, 0.333);
+    background-color:variables.$color-trans; 
 }

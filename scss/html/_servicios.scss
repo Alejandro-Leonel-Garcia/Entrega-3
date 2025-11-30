@@ -1,11 +1,12 @@
+@use"../extend";
+
 /* Card´s html servicios */
 
 main {
     .servi {
         .container {
             .row {
-                justify-content: center;
-
+                @extend %flex-center;
                 .card {
                     position: relative;
                     border: solid 2px;

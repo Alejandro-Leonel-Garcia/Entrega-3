@@ -26,10 +26,10 @@ body {
 
 header {
   display: flex;
-  background-color: black;
   justify-content: space-between;
-  padding: 10px 30px;
   align-items: center;
+  background-color: black;
+  padding: 10px 30px;
 }
 header nav ul {
   display: flex;
@@ -162,10 +162,11 @@ section .grilla .row .uno .link:hover {
   font-size: 15px;
 }
 
-/* Card´s html servicios */
 main .servi .container .row {
   justify-content: center;
 }
+
+/* Card´s html servicios */
 main .servi .container .row .card {
   position: relative;
   border: solid 2px;

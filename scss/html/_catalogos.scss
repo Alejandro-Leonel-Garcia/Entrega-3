@@ -1,3 +1,6 @@
+@use"sass:map";
+@use "../maps" as mapa;
+
 /* Imagen con superposicion del link html catalogos */
 
 section {
@@ -23,13 +26,13 @@ section {
             top: 0;
             left: 0;
             position: absolute;
-            background-color: rgba(19, 9, 9, 0.621);
+            background-color: map.get(mapa.$colores,color-hover);
           }
         }
 
         .link {
           position: absolute;
-          color: brown;
+          color: map.get(mapa.$colores,color-tercero);
           bottom: 10px;
           left: calc(30%);
           z-index: 2;
@@ -37,7 +40,7 @@ section {
           margin: 5px;
 
           &:hover {
-            color: yellow;
+            color: map.get(mapa.$colores,color-cuarto);
             font-size: 20px;            
           }
         }
