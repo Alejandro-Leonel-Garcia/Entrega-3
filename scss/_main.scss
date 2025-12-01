@@ -1,3 +1,6 @@
+@use "../scss/mixin";
+@use"../scss/variables";
+
 /* Titulo de los encabezados */
 main {
   .encabezado {
@@ -9,48 +12,41 @@ main {
       display: grid;
       width: 70%;
       height: 100px;
-      background-color: rgba(0, 0, 255, 0.551);
+      background-color:variables.$color-titulo;
       font-size: 40px;
       justify-content: center;
       align-content: center;
       margin: 20px;
       border-radius: 15px;
       box-shadow: 0 0 10px;
-      color: rgb(0, 0, 0);
+      color: variables.$color-primero;
     }
 
     .sub-titulo {
-      display: grid;
+      @include mixin.grid(grid,center,center);
       width: 60%;
       height: 100px;
-      background-color: rgba(0, 0, 255, 0.418);
+      background-color: variables.$color-subtitu;
       font-size: 40px;
-      justify-content: center;
-      align-content: center;
       border-radius: 15px;
       box-shadow: 0 0 10px;
-      color: black;
+      color: variables.$color-primero;
     }
     }
 
     /* Fotos del index */    
     .fotos {
-      display: grid;
+      @include mixin.grid(grid,center,center);
       height: auto;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 200px 200px;
       gap: 20px;
-      justify-content: center;
-      align-content: center;
       margin: 20px 0px;
     }
 
     .fotos {
       div {
-        display: grid;
-        justify-content: center;
-        align-content: center;
-
+        @include mixin.grid(grid,center,center);
         img {
           border-radius: 10px;
           box-shadow: 0 0 10px;

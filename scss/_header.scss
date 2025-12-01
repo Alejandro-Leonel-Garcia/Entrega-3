@@ -1,22 +1,23 @@
 @use "../scss/mixin";
+@use"../scss/variables";
 
 /* Header menu hamburguesa y menú */
 .hamburguesa {
-  color: white;
+  color: variables.$color-segundo;
   font-size: 35px;
   display: none;
   z-index: 4;
 }
 
 .navbar div button {
-  background-color: black;
+  background-color: variables.$color-primero;
 }
 
 
 
 header {
   @include mixin.flex-center(flex,space-between,center);
-  background-color: black;
+  background-color: variables.$color-primero;
   padding: 10px 30px;
   
   nav {
@@ -30,7 +31,7 @@ header {
         a {
           margin: 0;
           padding: 0;
-          color: white;
+          color: variables.$color-segundo;
           text-decoration: none;
           font-size: 15px;
           padding: 20px;
@@ -38,7 +39,7 @@ header {
         }
 
         &:hover a {
-          color: yellow;
+          color: variables.$color-cuarto;
         }
       }      
     }
