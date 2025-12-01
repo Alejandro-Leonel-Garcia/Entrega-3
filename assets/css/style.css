@@ -224,7 +224,7 @@ main .servi .container .row .card:hover::after {
   .menu {
     display: none;
   }
-  .fotos {
+  main .fotos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
   }
@@ -237,17 +237,17 @@ main .servi .container .row .card:hover::after {
   .menu {
     display: none;
   }
-  .fotos {
+  main .fotos {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6 200);
     margin: 20px 0px;
   }
-  .titulo {
+  main .encabezado .titulo {
     font-size: 30px;
   }
-  .sub-titulo {
+  main .encabezado .sub-titulo {
     font-size: 30px;
   }
 }
