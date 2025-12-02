@@ -1,4 +1,4 @@
-@use"../extend";
+@use"../utilities/extend";
 
 /* Card´s html servicios */
 
@@ -6,7 +6,7 @@ main {
     .servi {
         .container {
             .row {
-                @extend %flex-center;
+                @extend %center;
                 .card {
                     position: relative;
                     border: solid 2px;

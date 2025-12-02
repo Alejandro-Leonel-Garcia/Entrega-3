@@ -1,0 +1,19 @@
+@use"../utilities/extend";
+
+.animaciones {
+    height: 100vh;
+    @extend %flex-center;
+
+    .caja {
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(blue, cyan);
+        @extend %flex-center;
+        transition: transform 1s;
+        transition-timing-function: ease-in;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

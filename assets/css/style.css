@@ -166,6 +166,12 @@ main .servi .container .row {
   justify-content: center;
 }
 
+.animaciones, .animaciones .caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Card´s html servicios */
 main .servi .container .row .card {
   position: relative;
@@ -180,6 +186,20 @@ main .servi .container .row .card:hover::after {
   left: 0;
   position: absolute;
   background-color: rgba(19, 9, 9, 0.225);
+}
+
+.animaciones {
+  height: 100vh;
+}
+.animaciones .caja {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(blue, cyan);
+  transition: transform 1s;
+  transition-timing-function: ease-in;
+}
+.animaciones .caja:hover {
+  transform: scale(1.1);
 }
 
 /* Fotter pie de pagina */

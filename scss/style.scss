@@ -1,9 +1,10 @@
-@use "generales";
-@use "header";
-@use "main";
+@use "../scss/principales/generales";
+@use "../scss/principales/header";
+@use "../scss/principales/main";
 @use "../scss/html/bombas";
 @use "../scss/html/catalogos";
 @use "../scss/html/perifericos";
 @use "../scss/html/servicios";
-@use "fotter";
-@use "queries";
+@use "../scss/principales/index";
+@use "../scss/principales/fotter";
+@use "../scss/principales/queries";
