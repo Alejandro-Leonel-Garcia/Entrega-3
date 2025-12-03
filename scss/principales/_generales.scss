@@ -1,3 +1,5 @@
+@use"../utilities/variables";
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* reset de css */
@@ -9,5 +11,5 @@
 
 body{
     font-family: "Nunito", sans-serif;
-    background-color: rgba(128, 128, 128, 0.282);
+    background-color: variables.$color-body;
 }
