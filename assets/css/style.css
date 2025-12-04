@@ -211,6 +211,7 @@ main .servi .container .row .card:hover::after {
   width: 100%;
   height: 100%;
   position: absolute;
+  padding: 10px;
 }
 .animaciones .caja .abajo {
   display: flex;
